@@ -1,0 +1,55 @@
+# # Terraform
+# .terraform/
+# *.tfstate
+# *.tfstate.*
+# terraform.tfvars
+# # Secrets
+# .env
+# exemplifi-wp
+# exemplifi-wp.pub
+# # WordPress
+# wp-config.php
+# wp-content/uploads/
+# node_modules/
+# vendor/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+# Local env & keys
+.env
+exemplifi-wp
+exemplifi-wp.pub
+
+# WordPress
+wordpress/wp-config.php
+wordpress/wp-content/uploads/
+wordpress/node_modules/
+wordpress/vendor/
+
+# OS/editor junk
+.DS_Store
+# === WordPress Core (inside /wordpress) ===
+wordpress/wp-config.php
+wordpress/wp-config-sample.php
+
+# === WordPress Content ===
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/backup-*/
+wordpress/wp-content/backups/
+wordpress/wp-content/mu-plugins/
+wordpress/wp-content/advanced-cache.php
+wordpress/wp-content/debug.log
+
+# === Node & Build Files ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
